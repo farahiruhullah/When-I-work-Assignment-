@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 17.702 s <<< FAILURE! - in runner.TestRunner
+user adds employee(add employee)  Time elapsed: 17.016 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class stepDefinitions.EmployeeAdd
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getTagName()" because "element" is null
+
